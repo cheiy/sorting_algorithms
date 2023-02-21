@@ -31,4 +31,6 @@ void quick_sort(int *array, size_t size);
 
 void swap_values(int *prev, int *next);
 
+void swap_items(listint_t **h, listint_t **n1, listint_t *n2);
+
 #endif /* SORT_H_ */
